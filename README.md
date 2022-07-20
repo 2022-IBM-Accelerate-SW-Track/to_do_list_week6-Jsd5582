@@ -82,7 +82,7 @@ const cookieAuth = (req, res, next) => {
     }
 }
 
-module.exports = { authenticator, upsertUser, cookieAuth }
+module.exports = { authenticator, upsertUser, cookieAuth }-
 ```
 
 In this file, we hold user data in the `users` variable, and persist the data in `users.json`. To add default users, create the file `backend/users.json`, and paste this document in it:
@@ -211,7 +211,7 @@ import * as api from './services/api';
                 </div>
             )}
         </div>
-    );
+    );-
 ```
 
 This Login form will ask users to login before showing them the TODO app. It relies on a file called `src/services/api.js`. Create that file and add the following code:
